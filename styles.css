@@ -2,5 +2,75 @@
   margin: 0;
   box-sizing: border-box;
 }
-a{
-text-decoration: none;}
+a {
+  text-decoration: none;
+}
+/* 
+===========
+Navbar
+===========
+*/
+.navbar {
+  position: fixed;
+  text-align: center;
+  width: 100%;
+  z-index: 1;
+  box-shadow: 6px 9px 25px 5px rgba(0, 0, 0, 0.56);
+  background: white;
+}
+.nav-left {
+  display: flex;
+  flex-wrap: wrap;
+  float: left;
+}
+.nav-right {
+  display: flex;
+  flex-wrap: wrap;
+  float: right;
+}
+.nav-item {
+  padding: 1rem;
+  display: block;
+  color: black;
+}
+/* 
+===========
+Hero section
+===========
+*/
+.header {
+  max-width: 1600px;
+  min-width: 500px;
+}
+.hero-img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+.hero-text {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  display: block;
+  opacity: 0.6;
+  margin: 1rem;
+  padding: 12px 24px;
+}
+/* 
+===========
+about section
+===========
+*/
+.about-section {
+  margin: 0 3rem;
+  margin-top: 5rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+.about-img-container {
+  flex: 50%;
+}
+.about-text-container {
+  text-align: center;
+  flex: 50%;
+}
